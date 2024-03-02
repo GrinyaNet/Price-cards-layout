@@ -128,9 +128,8 @@
   height: 770px;
   width: 380px;
   background: #334247;
-  margin-top: 47px;
-  border-top: 18px solid #141b1c;
-  border-right: 18px solid #141b1c;
+  margin-top: 65px;
+  margin-right: 18px;
 }
 
 .price-card-business__title {
