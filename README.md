@@ -1,6 +1,6 @@
 # Price cards layout Project: Price cards
 
-### [Site link](https://github.com/GrinyaNet/Price-cards-layout/)
+### [Site link](https://grinyanet.github.io/Price-cards-layout/)
 
 
 Layout supports desktop version
