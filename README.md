@@ -14,4 +14,4 @@ Layout supports desktop version
 - [BEM methodology](https://en.bem.info/methodology/)
 
 ### Author
-Igor Grechaniy
+- Igor Grechaniy
