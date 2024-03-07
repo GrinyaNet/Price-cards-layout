@@ -1,9 +1,9 @@
-# Price cards layout Sample Project
+# Price cards layout Project: Price cards
 
 ### [Site link](https://github.com/GrinyaNet/Price-cards-layout)
 
 
-Layout supports desktop versions
+Layout supports desktop version
 
 ### The tech stack is:
 
@@ -14,4 +14,4 @@ Layout supports desktop versions
 - [BEM methodology](https://en.bem.info/methodology/)
 
 ### Author
-Igor Grechaniy
+- Igor Grechaniy
