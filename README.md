@@ -1,4 +1,4 @@
-# Price cards layout Project: Price cards
+# Project: Price cards
 
 ### [Site link](https://grinyanet.github.io/Price-cards-layout/)
 
