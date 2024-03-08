@@ -107,6 +107,7 @@
   background: #5bb189;
   border-radius: 20px;
   border: none;
+  cursor: pointer;
 }
 
 .price-card-business {
@@ -171,6 +172,7 @@
   background: #3a6ba5;
   border-radius: 20px;
   border: none;
+  cursor: pointer;
 }
 
 .price-card-webshop {
@@ -211,6 +213,7 @@
   background: #ec632a;
   border-radius: 20px;
   border: none;
+  cursor: pointer;
 }
 
 html {
