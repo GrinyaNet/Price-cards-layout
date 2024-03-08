@@ -1,7 +1,5 @@
 .price-table {
   display: flex;
-  height: 1000px;
-  width: 1440px;
   background-color: #141b1c;
   padding: 0 132px 115px 132px;
 }
@@ -95,9 +93,10 @@
 
       &-image {
         height: 15px;
-        width: 13px;
+        width: 15px;
         margin: 18px 22px 0 22px;
         background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+        background-repeat: no-repeat;
       }
 
       &-text {

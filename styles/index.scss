@@ -1,8 +1,17 @@
-@import "price-table.scss";
-@import "card-business.scss";
-@import "card-webshop.scss";
+@import 'price-table.scss';
+@import 'card-business.scss';
+@import 'card-webshop.scss';
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #2b292b;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
