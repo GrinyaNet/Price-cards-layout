@@ -2,25 +2,29 @@
   display: inline-block;
   height: 770px;
   width: 380px;
-  background: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  background: $second-background;
+  //background: #334247;
+  box-shadow: 0px 6px 6px $box-shadow-color;
+  //box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-top: 65px;
 
   &__title {
     height: 64px;
     width: 176px;
     margin: 33px 0 0 102px;
-    color: #ffffff;
+    color: $white-color;
+    //color: #ffffff;
   }
 
   &__price {
     height: 105px;
     width: 380px;
-    background: #ec632a;
+    background: $orange-color;
+    //background: #ec632a;
     margin-top: 36px;
   }
 
-  &__options-list__box-image {
+  &__box-image {
     height: 15px;
     width: 15px;
     margin: 18px 22px 0 22px;
@@ -36,8 +40,10 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #ffffff;
-    background: #ec632a;
+    color: $white-color;
+    //color: #ffffff;
+    background: $orange-color;
+    //background: #ec632a;
     border-radius: 20px;
     border: none;
     cursor: pointer;

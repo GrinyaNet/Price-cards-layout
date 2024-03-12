@@ -1,15 +1,18 @@
 .price-table {
   display: flex;
-  background-color: #141b1c;
-  margin: 0 132px 35px 150px;  
+  background-color: $base-background;
+  //background-color: #141b1c;
+  margin: 0 132px 35px 150px;
 }
 
 .price-card {
   display: inline-block;
   height: 770px;
   width: 380px;
-  background: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  background: $second-background;
+  //background: #334247;
+  box-shadow: 0px 6px 6px $box-shadow-color;
+  //box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-top: 65px;
   margin-right: 18px;
 
@@ -18,7 +21,9 @@
     width: 100px;
     margin: 33px 0 0 140px;
 
-    color: #ffffff;
+    color: $white-color;
+
+    //color: #ffffff;
 
     &-text {
       margin: 0;
@@ -40,7 +45,8 @@
   &__price {
     height: 105px;
     width: 380px;
-    background: #5bb189;
+    background: $green-color;
+    //background: #5bb189;
     margin-top: 36px;
 
     &-text {
@@ -52,7 +58,9 @@
       line-height: 67px;
       text-align: center;
 
-      color: #ffffff;
+      color: $white-color;
+
+      //color: #ffffff;
     }
   }
 
@@ -68,7 +76,9 @@
     line-height: 18px;
     text-align: center;
 
-    color: #ffffff;
+    color: $white-color;
+
+    //color: #ffffff;
   }
 
   &__options-list {
@@ -80,36 +90,46 @@
     font-size: 15px;
     line-height: 18px;
 
-    color: #ffffff;
+    color: $white-color;
 
-    &__box {
-      display: flex;
-      height: 50px;
-      width: 380px;
+    //color: #ffffff;
+  }
 
-      &:nth-child(2n + 1) {
-        background-color: #2a3438;
-      }
+  &__box {
+    display: flex;
+    height: 50px;
+    width: 380px;
 
-      &-image {
-        height: 15px;
-        width: 15px;
-        margin: 18px 22px 0 22px;
-        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-        background-repeat: no-repeat;
-      }
-
-      &-text {
-        height: 18px;
-        width: 300px;
-        margin-top: 16px;
-
-        &__size {
-          height: 18px;
-          width: 163px;
-        }
-      }
+    &:nth-child(2n + 1) {
+      background-color: $list-background;
+      //background-color: #2a3438;
     }
+
+    &-image {
+      height: 15px;
+      width: 15px;
+      margin: 18px 22px 0 22px;
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+      background-repeat: no-repeat;
+    }
+
+    &-text {
+      height: 18px;
+      width: 300px;
+      margin-top: 16px;
+
+      // &__size {
+      //   height: 18px;
+      //   width: 163px;
+      // }
+    }
+  }
+
+  // }!
+
+  &__text-size {
+    height: 18px;
+    width: 163px;
   }
 
   &__order-btn {
@@ -120,8 +140,10 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #ffffff;
-    background: #5bb189;
+    color: $white-color;
+    //color: #ffffff;
+    background: $green-color;
+    //background: #5bb189;
     border-radius: 20px;
     border: none;
     cursor: pointer;
