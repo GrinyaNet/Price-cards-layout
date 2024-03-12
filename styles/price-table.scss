@@ -1,7 +1,6 @@
 .price-table {
   display: flex;
   background-color: $base-background;
-  //background-color: #141b1c;
   margin: 0 132px 35px 150px;
 }
 
@@ -10,9 +9,7 @@
   height: 770px;
   width: 380px;
   background: $second-background;
-  //background: #334247;
   box-shadow: 0px 6px 6px $box-shadow-color;
-  //box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-top: 65px;
   margin-right: 18px;
 
@@ -22,8 +19,6 @@
     margin: 33px 0 0 140px;
 
     color: $white-color;
-
-    //color: #ffffff;
 
     &-text {
       margin: 0;
@@ -46,7 +41,6 @@
     height: 105px;
     width: 380px;
     background: $green-color;
-    //background: #5bb189;
     margin-top: 36px;
 
     &-text {
@@ -59,8 +53,6 @@
       text-align: center;
 
       color: $white-color;
-
-      //color: #ffffff;
     }
   }
 
@@ -68,7 +60,6 @@
     height: 36px;
     width: 327px;
     margin-top: 40px;
-    //padding-top: 40px;
     padding-left: 26px;
 
     font-weight: 300;
@@ -77,8 +68,6 @@
     text-align: center;
 
     color: $white-color;
-
-    //color: #ffffff;
   }
 
   &__options-list {
@@ -91,8 +80,6 @@
     line-height: 18px;
 
     color: $white-color;
-
-    //color: #ffffff;
   }
 
   &__box {
@@ -102,7 +89,6 @@
 
     &:nth-child(2n + 1) {
       background-color: $list-background;
-      //background-color: #2a3438;
     }
 
     &-image {
@@ -117,15 +103,8 @@
       height: 18px;
       width: 300px;
       margin-top: 16px;
-
-      // &__size {
-      //   height: 18px;
-      //   width: 163px;
-      // }
     }
   }
-
-  // }!
 
   &__text-size {
     height: 18px;
@@ -141,9 +120,7 @@
     line-height: 17px;
     text-align: center;
     color: $white-color;
-    //color: #ffffff;
     background: $green-color;
-    //background: #5bb189;
     border-radius: 20px;
     border: none;
     cursor: pointer;

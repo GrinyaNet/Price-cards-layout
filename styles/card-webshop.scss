@@ -3,9 +3,7 @@
   height: 770px;
   width: 380px;
   background: $second-background;
-  //background: #334247;
   box-shadow: 0px 6px 6px $box-shadow-color;
-  //box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-top: 65px;
 
   &__title {
@@ -13,14 +11,12 @@
     width: 176px;
     margin: 33px 0 0 102px;
     color: $white-color;
-    //color: #ffffff;
   }
 
   &__price {
     height: 105px;
     width: 380px;
     background: $orange-color;
-    //background: #ec632a;
     margin-top: 36px;
   }
 
@@ -41,9 +37,7 @@
     line-height: 17px;
     text-align: center;
     color: $white-color;
-    //color: #ffffff;
     background: $orange-color;
-    //background: #ec632a;
     border-radius: 20px;
     border: none;
     cursor: pointer;

@@ -2,7 +2,6 @@
   height: 770px;
   width: 380px;
   background: $second-background;
-  //background: #334247;
   margin-top: 65px;
   margin-right: 18px;
 
@@ -13,11 +12,9 @@
     margin: 33px 0 0 108px;
 
     color: $white-color;
-    //color: #ffffff;
   }
 
   &__label {
-    // position: relative;
     height: 105px;
     width: 104px;
     margin-left: 276px;
@@ -42,7 +39,6 @@
       line-height: 17px;
 
       color: $white-color;
-      //color: #ffffff;
     }
   }
 
@@ -50,7 +46,6 @@
     height: 105px;
     width: 380px;
     background: $blue-color;
-    //background: #3a6ba5;
     margin-top: 28px;
   }
 
@@ -71,9 +66,7 @@
     line-height: 17px;
     text-align: center;
     color: $white-color;
-    //color: #ffffff;
     background: $blue-color;
-    //background: #3a6ba5;
     border-radius: 20px;
     border: none;
     cursor: pointer;
