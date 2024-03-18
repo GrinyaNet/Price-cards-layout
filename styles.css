@@ -13,13 +13,13 @@
   margin-top: 65px;
   margin-right: 18px;
 }
-.price-card__title {
+.price-card__header {
   height: 64px;
   width: 100px;
   margin: 33px 0 0 140px;
   color: #ffffff;
 }
-.price-card__title-text {
+.price-card__title {
   margin: 0;
   font-weight: 700;
   font-size: 35px;
@@ -38,8 +38,6 @@
   width: 380px;
   background: #5bb189;
   margin-top: 36px;
-}
-.price-card__price-text {
   padding: 19px 110px;
   height: 67px;
   width: 160px;
@@ -69,26 +67,7 @@
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
-}
-.price-card__box {
-  display: flex;
-  height: 50px;
-  width: 380px;
-}
-.price-card__box:nth-child(2n+1) {
-  background-color: #2a3438;
-}
-.price-card__box-image {
-  height: 15px;
-  width: 15px;
-  margin: 18px 22px 0 22px;
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-  background-repeat: no-repeat;
-}
-.price-card__box-text {
-  height: 18px;
-  width: 300px;
-  margin-top: 16px;
+  padding: 0;
 }
 .price-card__text-size {
   height: 18px;
@@ -107,6 +86,27 @@
   border-radius: 20px;
   border: none;
   cursor: pointer;
+}
+
+.option {
+  display: flex;
+  height: 50px;
+  width: 380px;
+}
+.option:nth-child(2n+1) {
+  background-color: #2a3438;
+}
+.option__icon {
+  height: 15px;
+  width: 15px;
+  margin: 18px 22px 0 22px;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-repeat: no-repeat;
+}
+.option__text {
+  height: 18px;
+  width: 300px;
+  margin-top: 16px;
 }
 
 .price-card_business__title {
