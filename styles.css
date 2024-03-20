@@ -87,28 +87,6 @@
   border: none;
   cursor: pointer;
 }
-
-.option {
-  display: flex;
-  height: 50px;
-  width: 380px;
-}
-.option:nth-child(2n+1) {
-  background-color: #2a3438;
-}
-.option__icon {
-  height: 15px;
-  width: 15px;
-  margin: 18px 22px 0 22px;
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-  background-repeat: no-repeat;
-}
-.option__text {
-  height: 18px;
-  width: 300px;
-  margin-top: 16px;
-}
-
 .price-card_business__title {
   float: left;
   height: 64px;
@@ -151,7 +129,6 @@
 .price-card_business__order-btn {
   background: #3a6ba5;
 }
-
 .price-card_webshop__title {
   height: 64px;
   width: 176px;
@@ -167,6 +144,27 @@
 }
 .price-card_webshop__order-btn {
   background: #ec632a;
+}
+
+.option {
+  display: flex;
+  height: 50px;
+  width: 380px;
+}
+.option:nth-child(2n+1) {
+  background-color: #2a3438;
+}
+.option__icon {
+  height: 15px;
+  width: 15px;
+  margin: 18px 22px 0 22px;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-repeat: no-repeat;
+}
+.option__text {
+  height: 18px;
+  width: 300px;
+  margin-top: 16px;
 }
 
 html {
