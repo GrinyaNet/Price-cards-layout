@@ -1,7 +1,7 @@
 .price-table {
   display: flex;
   background-color: $base-background;
-  margin: 0 132px 35px 150px;
+  margin: 0 132px 35px 150px;  
 }
 
 .price-card {
@@ -145,7 +145,7 @@
       height: 64px;
       width: 164px;
       margin: 33px 0 0 108px;
-      color: $white-color;
+      color: $white-color;      
     }
 
     &__label {
