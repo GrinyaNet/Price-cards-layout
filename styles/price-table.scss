@@ -26,6 +26,25 @@
     font-size: 35px;
     line-height: 43px;
     text-align: center;
+
+    &_business {
+      &_title {
+        float: left;
+        height: 64px;
+        width: 164px;
+        margin: 33px 0 0 108px;
+        color: $white-color;
+      }
+    }
+
+    &_webshop {
+      &_title {
+        height: 64px;
+        width: 176px;
+        margin: 33px 0 0 102px;
+        color: $white-color;
+      }
+    }
   }
 
   &__subtitle {
@@ -49,6 +68,19 @@
     line-height: 67px;
     text-align: center;
     color: $white-color;
+
+    &_business {
+      &_price {
+        background: $blue-color;
+        margin-top: 28px;
+      }
+    }
+
+    &_webshop {
+      &_price {
+        background: $orange-color;
+      }
+    }
   }
 
   &__description {
@@ -93,6 +125,18 @@
     border-radius: 20px;
     border: none;
     cursor: pointer;
+
+    &_business {
+      &_order-btn {
+        background: $blue-color;
+      }
+    }
+
+    &_webshop {
+      &_order-btn {
+        background: $orange-color;
+      }
+    }
   }
 }
 
@@ -111,11 +155,52 @@
     margin: 18px 22px 0 22px;
     background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
     background-repeat: no-repeat;
+
+    &_business {
+      &_box-image {
+        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_webshop {
+      &_box-image {
+        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+        background-repeat: no-repeat;
+      }
+    }
   }
 
   &__text {
     height: 18px;
     width: 300px;
     margin-top: 16px;
+  }
+}
+
+.promotion {
+  height: 105px;
+  width: 104px;
+  margin-left: 276px;
+
+  &__wrapper {
+    padding-top: 37px;
+    width: 98px;
+    border-bottom: 25px solid #dc3f45;
+    transform: rotate(45deg);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+  }
+
+  &__text {
+    position: absolute;
+    padding: 4px 0 0 13px;
+    margin: 0;
+    height: 17px;
+    width: 76px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $white-color;
   }
 }
