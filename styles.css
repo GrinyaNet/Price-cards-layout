@@ -9,7 +9,7 @@
   height: 770px;
   width: 380px;
   background: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  box-shadow: 0px 6px 6px #000000;
   margin-top: 65px;
   margin-right: 18px;
 }
@@ -26,14 +26,14 @@
   line-height: 43px;
   text-align: center;
 }
-.price-card__title_business_title {
+.price-card__title_business {
   float: left;
   height: 64px;
   width: 164px;
   margin: 33px 0 0 108px;
   color: #ffffff;
 }
-.price-card__title_webshop_title {
+.price-card__title_webshop {
   height: 64px;
   width: 176px;
   margin: 33px 0 0 102px;
@@ -60,11 +60,11 @@
   text-align: center;
   color: #ffffff;
 }
-.price-card__price_business_price {
+.price-card__price_business {
   background: #3a6ba5;
   margin-top: 28px;
 }
-.price-card__price_webshop_price {
+.price-card__price_webshop {
   background: #ec632a;
 }
 .price-card__description {
@@ -107,10 +107,10 @@
   border: none;
   cursor: pointer;
 }
-.price-card__order-btn_business_order-btn {
+.price-card__order-btn_business {
   background: #3a6ba5;
 }
-.price-card__order-btn_webshop_order-btn {
+.price-card__order-btn_webshop {
   background: #ec632a;
 }
 
@@ -129,11 +129,11 @@
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   background-repeat: no-repeat;
 }
-.option__icon_business_box-image {
+.option__icon_business {
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
   background-repeat: no-repeat;
 }
-.option__icon_webshop_box-image {
+.option__icon_webshop {
   background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
   background-repeat: no-repeat;
 }

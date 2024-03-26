@@ -27,23 +27,19 @@
     line-height: 43px;
     text-align: center;
 
-    &_business {
-      &_title {
+    &_business {      
         float: left;
         height: 64px;
         width: 164px;
         margin: 33px 0 0 108px;
-        color: $white-color;
-      }
+        color: $white-color;      
     }
 
-    &_webshop {
-      &_title {
+    &_webshop {      
         height: 64px;
         width: 176px;
         margin: 33px 0 0 102px;
-        color: $white-color;
-      }
+        color: $white-color;      
     }
   }
 
@@ -69,17 +65,13 @@
     text-align: center;
     color: $white-color;
 
-    &_business {
-      &_price {
+    &_business {      
         background: $blue-color;
-        margin-top: 28px;
-      }
+        margin-top: 28px;      
     }
 
-    &_webshop {
-      &_price {
-        background: $orange-color;
-      }
+    &_webshop {      
+        background: $orange-color;      
     }
   }
 
@@ -126,16 +118,12 @@
     border: none;
     cursor: pointer;
 
-    &_business {
-      &_order-btn {
-        background: $blue-color;
-      }
+    &_business {      
+        background: $blue-color;      
     }
 
-    &_webshop {
-      &_order-btn {
-        background: $orange-color;
-      }
+    &_webshop {      
+        background: $orange-color;      
     }
   }
 }
@@ -156,18 +144,14 @@
     background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
     background-repeat: no-repeat;
 
-    &_business {
-      &_box-image {
+    &_business {      
         background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-        background-repeat: no-repeat;
-      }
+        background-repeat: no-repeat;      
     }
 
-    &_webshop {
-      &_box-image {
+    &_webshop {      
         background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-        background-repeat: no-repeat;
-      }
+        background-repeat: no-repeat;      
     }
   }
 
